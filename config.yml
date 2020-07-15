@@ -17,7 +17,7 @@
 ##################################################
 
 ## Tag in chat before text in chat from shop. e.g [GUIShop] Purchase Successful.
-prefix: "[&cLoja Maneirinha&f]"
+prefix: "[&cLoja&f]"
 
 ## Command used to open shop, DON'T PUT A /
 buy-commands:
@@ -141,19 +141,19 @@ dynamic-pricing: true
 debug-mode: false
 
 #The overall shop menu title
-menu-title: "Menu"
+menu-title: "Loja"
 
 #The title of a specific shop inventory
-shop-title: "Menu &f> &r{shopname}"
+shop-title: "Loja &f> &r{shopname}"
 
 #The title of the sell inventory
-sell-title: "Menu &f> &rSell"
+sell-title: "Loja &f> &rVenda"
 
 #The title of the quantity inventory.
-qty-title: "&4Select Amount"
+qty-title: "&4Escolhe a quantide"
 
 #The title of the alternate sell GUI, if enabled
-alt-sell-title: "Menu &f> &rSell"
+alt-sell-title: "Loja &f> &rVenda"
 
 access-to: "&Acesso a comandos:"
 
