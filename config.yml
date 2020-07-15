@@ -35,10 +35,10 @@ register-commands: true
 ############ Language settings ###############
 
 #No permission message
-no-permission: "&cNo Permission!"
+no-permission: "&cSem permissão!"
 
 #Disabled world message
-disabled-world: "&cYou cannot use the shop from this world!"
+disabled-world: "&cNão consegues usar a loja deste mundo!"
 
 #Use the escape key to close the shop instead of the back button.
 escape-only: true
@@ -53,60 +53,60 @@ cost: "&7Preço"
 return: "&7Venda"
 
 #The 1st line of the message on shop items
-line1: "&8To sell, click the item in your inv."
+line1: "&8Para vender, clica no item no inv."
 
 #The 2nd line of the message on shop items
-line2: "&6Must be the same quantity!"
+line2: "&6Deve ser a mesma quantidade!"
 
 #The 3rd line of the message on shop items
-line3: "Click to buy item of quantity"
+line3: "Clica para comprar a quantidade"
 
 #The 4th line of the message on shop items
-line4: "Shift+Click to buy 1 item"
+line4: "Shift+Click para comprar 1 item"
 
 #The text back button in the shops
-back: "&cBack"
+back: "&cAtrás"
 
 #The item the back button will be!
 back-button-item: "RED_STAINED_GLASS_PANE"
 
 #The messaged displayed before the item amount.
 
-purchased: "&fA purchase was made, and &c$"
+purchased: "&fUma compra foi feita, e &c$"
 
 ## The second message displayed when you purchase an item.
 
 ## E.G 54$ Taken from your account.
-taken: "&f was taken from your account."
+taken: "&f foi tirado da tua conta."
 
 ##  The words displayed before the amount needed.
-not-enough-pre: "&fYou need &c$"
+not-enough-pre: "&fPrecisas de mais &c$"
 
 ## The words displayed AFTER the amount needed.
-not-enough-post: "&f to purchase this!"
+not-enough-post: "&f para comprar isto!"
 
 ## Text displayed before item name.
-sold: "&fYour items were sold, and &a$"
+sold: "&fOs teus items foram vendidos, e &a$"
 
 ##Second message when buying, Words AFTER the amount
 ## E.G 54$ "Added to your account"
-added: "&f was added to your account."
+added: "&f foram adicionados à tua conta."
 
 #When something magical goes wrong?
-something-wrong: "&fSomething went wrong, contact an admin."
+something-wrong: "&fAlguma coisa correu mal, contacta um administrador"
 
 #Message displayed when a player tries to sell blocks not matching the quantity.
-in-stacks: "&fPlease sell in stacks of &c"
+in-stacks: "&fPfv vende em stacks de &c"
 
 #Message when a player cannot sell a certain item.
 #{count} can be used to display the amount of non sellable, returned items.
-cant-sell: "&f({count}) item(s) failed to sell and have been returned to your inventory."
+cant-sell: "&f(A venda de {count}) item(s) falhou e voltaram ao teu inventário."
 
 #Message when a player cannot buy a certain item.
-cant-buy: "&fSorry, you are not able to buy that item."
+cant-buy: "&fDesculpa, não podes comprar esse item."
 
 #When a player has a full inventory
-full-inventory: "&cPlease empty your inventory!"
+full-inventory: "&cPfv, esvazia o teu inventário!"
 
 #The currency symbol
 currency: "$"
@@ -120,7 +120,7 @@ sign-title: "[&cGUIShop&f]"
 #Do want players to be able to access the shop ONLY using the sign?
 signs-only: true
 
-signs-only-message: "&cYou can only access the shop by clicking a [&cGUIShop&f] sign!"
+signs-only-message: "&cSó consegues aceder à loja clicando num sinal!"
 
 #Menu row count
 menu-rows: 3
@@ -155,7 +155,7 @@ qty-title: "&4Select Amount"
 #The title of the alternate sell GUI, if enabled
 alt-sell-title: "Menu &f> &rSell"
 
-access-to: "&aAccess to Commands:"
+access-to: "&Acesso a comandos:"
 
 buy-lore: "&fCompra: &c{amount}"
 
@@ -167,9 +167,9 @@ cannot-buy: "&cNão Pode Comprar"
 
 cannot-sell: "&cNão Pode Vender"
 
-forward-page-button-name: "&rNext page"
+forward-page-button-name: "&Próx. pagina"
 
-backward-page-button-name: "&rLast page"
+backward-page-button-name: "&rUltima pagina"
 
 #Used in the alternate sell GUI
 alt-sell-indicator-material: "GOLD_INGOT"
@@ -184,12 +184,12 @@ alt-sell-quantity-3: 64
 alt-sell-confirm-material: "EMERALD_BLOCK"
 alt-sell-cancel-material: "REDSTONE_BLOCK"
 
-alt-sell-confirm-name: "&a&lConfirm"
-alt-sell-cancel-name: "&c&lCancel"
+alt-sell-confirm-name: "&a&lConfirmar"
+alt-sell-cancel-name: "&c&lCancelar"
 
-alt-sell-not-enough: "&cYou do not have {amount} such items to sell."
+alt-sell-not-enough: "&cNão tens {amount} items para vender."
 
-DisabledWorlds: -'Test'
+DisabledWorlds: -'SurvivalWorld'
 
 ## Items to disable quantity stacking.
 ## This will force these items to only have
